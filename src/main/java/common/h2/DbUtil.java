@@ -14,7 +14,7 @@ public class DbUtil {
     public static final String SQL_CREATE_SUB_SYSTEM = "";
     public static final String SQL_ADD_SUB_SYSTEM = "";
     public static final String SQL_SELECT_SUB_SYSTEM = "";
-    public static final String SQL_CREATE_PATH = "";
+    public static final String SQL_CREATE_PATH = "CREATE TABLE path (id_path number(10) NOT NULL, id_subsystem number(10) NOT NULL, id_chanel number(10) NOT NULL, id_slice number(10) NOT NULL, paramValue varchar)";
     public static final String SQL_ADD_PATH = "";
     public static final String SQL_SELECT_PATH = "";
     public static final String SQL_CREATE_PARAM = "";
