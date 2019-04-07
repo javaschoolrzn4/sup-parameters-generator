@@ -1,0 +1,32 @@
+{
+  "version" : "1.0",
+  "parameters" : [ {
+    "name" : "test",
+    "description" : "test description",
+    "isList" : false,
+    "roles" : [ "EFS_APPLICATION_ADMIN" ],
+    "type" : "String",
+    "bundle" : [ {
+      "path" : [ {
+        "code" : "VERSION",
+        "value" : "false"
+      }, {
+        "code" : "CHANNEL",
+        "value" : "name"
+      }, {
+        "code" : "SUBSYSTEM",
+        "value" : "name"
+      }, {
+        "code" : "TERBANK",
+        "value" : ""
+      }, {
+        "code" : "OSB",
+        "value" : ""
+      }, {
+        "code" : "VSP",
+        "value" : ""
+      } ],
+      "values" : [ "test" ]
+    } ]
+  } ]
+}
